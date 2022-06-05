@@ -1,22 +1,20 @@
-#TO BE FILLED
+# TO BE FILLED
 
 ## Gymkhana Run Timer
 Run timer on ESP8266 with web interface.
-Based on DonKracho's [project](https://create.arduino.cc/projecthub/DonKracho/esp8266-lap-timer-with-web-server-d6183a)
+Based on DonKracho's [project](https://create.arduino.cc/projecthub/DonKracho/esp8266-lap-timer-with-web-server-d6183a).
 
 ## About
-Measures time of a single run: from start to finish. After first interrupt of sensors
-
+Measures time of a single run: from start to finish. After first interrupt of sensors.
 After powering up, ESP8266 creates access point `SSID` with web server with IP `WEB_SERVER_IP` (default: 192.168.1.1).
-
-Just connect to AP, execute favourite browser and enter `WEB_SERVER_IP`)
+Just connect to AP, execute favourite browser and enter `WEB_SERVER_IP`).
 
 ![web interface of timer in initial state](img1.png "Timer in initial state")
 
 ### Hardware
 - MCU ESP8266 (e.g. board Wemos D1 mini);
 - E3F-R2NK (photoelectric sensor with IR transmitter, NPN, NO);
-- Mini360 buck converter (to power from 12V batteries).
+- Mini360 buck converter (to power from 12V batteries) or boost up converter (to increase voltage to power the sensor - the detection distance is too short at 5V).
 
 ### Features
 - Indicator of sensor's signal presence (useful thing during sensor and reflector installation);
