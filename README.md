@@ -26,7 +26,7 @@ Just connect to AP, execute favourite browser and enter `WEB_SERVER_IP`).
 ![web interface of working timer](img2.png "Working timer")
 
 ## Arduino IDE settings
-For WEMOS choose board LOLIN(WEMOS) D1 R2 & mini
+For Chinese WEMOS D1 mini choose board LOLIN(WEMOS) D1 R2 & mini
 
 ## Dependencies
 I used the following setup and libs:
